@@ -37,3 +37,8 @@ console.log(addNumbersNested(1)(2))
 
 const addNumbersNestedAF=(num1)=>(num2)=>num1+num2;
 console.log(addNumbersNestedAF(1)(2));
+
+const greet=(name)=> 'Hello, ' +(name);
+
+console.log(greet());
+console.log(greet("Karl"));
