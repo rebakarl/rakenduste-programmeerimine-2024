@@ -42,3 +42,5 @@ const greet=(name)=> 'Hello, ' +(name);
 
 console.log(greet());
 console.log(greet("Karl"));
+
+const newArraw=(1,2,3,4,5);
