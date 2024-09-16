@@ -1,0 +1,10 @@
+Sain teada, et:
+Promises lihtsustavad async toimingute käsitlemist/parandavad vigade haldamist. 
+
+Event loop on oluline ülesannete haldamiseks ühe lõimega keskkonnas +aitab optimeerida jõudlust. 
+/ haldab asünkroonseid toiminguid, hoiab lõimes bloki tekkimise eest.
+
+Async/await teeb lubadustega töötamisel koodi loetavamaks.
+Async callbacks:aeglased toimingud. nt: võrgutaotlused, tagab, et kasutajaliides jääb reageerivaks.
+
+Call stack käitab koodi, task que hoiab ülesandeid, kuni stack on tühi, vältides blokeerimist ja säilitades sujuvad liidesed.
